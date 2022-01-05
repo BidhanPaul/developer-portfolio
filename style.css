@@ -11,7 +11,7 @@ p{
 .portfolio_site{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,4 +44,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right ;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 20px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+   
+}
+#pro{
+    border-left: 8px solid ;
+    border-image: linear-gradient(orange, salmon);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#baby{
+    border-left: 8px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+footer p{
+    text-align: center;
 }
